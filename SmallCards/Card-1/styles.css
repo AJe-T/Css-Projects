@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+  width: 0px;
+}
+@font-face {
+  font-family: rubik;
+  src: url(../Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 400px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: rubik;
+}
+
+.card img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+.card h2 {
+  margin: 15px 0;
+}
+
+hr {
+  width: 75%;
+  border: 1px solid rgba(128, 128, 128, 0.27);
+  float: left;
+}
+
+#offerPrice {
+  color: rgb(102, 116, 204);
+  font-weight: bold;
+}
+
+#price {
+  color: rgb(119, 124, 133);
+  font-weight: bold;
+  margin: 0 5px;
+}
+#offer {
+  background-color: rgb(29, 209, 161);
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 3px;
+}

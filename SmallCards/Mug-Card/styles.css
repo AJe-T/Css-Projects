@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+  width: 0px;
+}
+@font-face {
+  font-family: rubik;
+  src: url(../Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 235, 227);
+}
+.card {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.left {
+  width: 315px;
+}
+.left img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover; */
+  border-radius: 25px 0 0 25px;
+}
+.right {
+  width: 315px;
+  margin: 9.6px 32px;
+}
+#smallHead {
+  margin: 16px 0;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  color: #70768f;
+  font-weight: 500;
+}
+#mainHead {
+  margin-bottom: 22.4px;
+}
+#mainHead p {
+  font-size: 32px;
+  font-family: "Fraunces";
+  line-height: 1em;
+}
+.desc {
+  font-family: "Montserrat", "sans-serif";
+  margin-bottom: 24px;
+  color: #70768f;
+  font-weight: 500;
+}
+.mainPrice {
+  font-family: "Fraunces";
+  font-size: 32px;
+  color: #35705a;
+  font-weight: bold;
+}
+.price {
+  font-family: "Montserrat", "sans-serif";
+  color: #70768f;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#btn {
+  width: 100%;
+  border: none;
+  background-color: #35705a;
+  margin-top: 40px;
+  display: block;
+  padding: 13.3px;
+  border-radius: 10px;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+}
